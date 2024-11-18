@@ -32,9 +32,9 @@ else
 */
 
 /*
-YYYY-MM-DD.T.HH:MM:SS.sss.
+YYYY-MM-DDTHH:MM:SS.sssZ
 Year, Month, Day, T, Hours,
-Minutes, Seconds, Milliseconds
+Minutes, Seconds, Milliseconds, Zulu
 
 T
 Separates the date from the time.
