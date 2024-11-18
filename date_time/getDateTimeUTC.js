@@ -1,16 +1,16 @@
-// getDateTimeUTC.js
+// getDateTime.js
 
-function getDateTimeUTC()
+function getDateTime()
 {
-    let dateTimeUTC = new Date();
-    return dateTimeUTC;
+    let dateTime = new Date();
+    return dateTime;
 }
 
 //----//
 
 if (require.main === module)
 {
-    console.log(getDateTimeUTC());
+    console.log(getDateTime());
 
     //-//
 
@@ -22,7 +22,7 @@ if (require.main === module)
 }
 else
 {
-    module.exports = getDateTimeUTC;
+    module.exports = getDateTime;
 }
 
 //----//
